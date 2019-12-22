@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HXQ</title>
+    <link>https://micro-hxq.github.io/</link>
+    <description>Recent content on HXQ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 22 Dec 2019 19:16:07 +0800</lastBuildDate>
+    
+	<atom:link href="https://micro-hxq.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test My Post</title>
+      <link>https://micro-hxq.github.io/articles/test-my-post/</link>
+      <pubDate>Sun, 22 Dec 2019 19:16:07 +0800</pubDate>
+      
+      <guid>https://micro-hxq.github.io/articles/test-my-post/</guid>
+      <description>Insert lead paragraph here.
+Header2 Header3 </description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://micro-hxq.github.io/about/</link>
+      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://micro-hxq.github.io/about/</guid>
+      <description>This is my technical blog.</description>
+    </item>
+    
+  </channel>
+</rss>

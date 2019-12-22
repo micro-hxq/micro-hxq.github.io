@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on HXQ</title>
+    <link>https://micro-hxq.github.io/tags/</link>
+    <description>Recent content in Tags on HXQ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 22 Dec 2019 19:16:07 +0800</lastBuildDate>
+    
+	<atom:link href="https://micro-hxq.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>&lt;tag&gt;</title>
+      <link>https://micro-hxq.github.io/tags/tag/</link>
+      <pubDate>Sun, 22 Dec 2019 19:16:07 +0800</pubDate>
+      
+      <guid>https://micro-hxq.github.io/tags/tag/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
