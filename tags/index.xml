@@ -6,17 +6,26 @@
     <description>Recent content in Tags on HXQ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Dec 2019 19:49:28 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 22 Dec 2019 20:30:01 +0800</lastBuildDate>
     
 	<atom:link href="https://micro-hxq.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>&lt;tag&gt;</title>
-      <link>https://micro-hxq.github.io/tags/tag/</link>
-      <pubDate>Sun, 22 Dec 2019 19:49:28 +0800</pubDate>
+      <title>blog</title>
+      <link>https://micro-hxq.github.io/tags/blog/</link>
+      <pubDate>Sun, 22 Dec 2019 20:30:01 +0800</pubDate>
       
-      <guid>https://micro-hxq.github.io/tags/tag/</guid>
+      <guid>https://micro-hxq.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://micro-hxq.github.io/tags/hugo/</link>
+      <pubDate>Sun, 22 Dec 2019 20:30:01 +0800</pubDate>
+      
+      <guid>https://micro-hxq.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     

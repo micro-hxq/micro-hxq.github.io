@@ -3,43 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://micro-hxq.github.io/categories/category/</loc>
-    <lastmod>2019-12-22T19:49:28+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://micro-hxq.github.io/tags/tag/</loc>
-    <lastmod>2019-12-22T19:49:28+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://micro-hxq.github.io/articles/</loc>
-    <lastmod>2019-12-22T19:49:28+08:00</lastmod>
+    <lastmod>2019-12-22T20:30:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://micro-hxq.github.io/categories/blog/</loc>
+    <lastmod>2019-12-22T20:30:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://micro-hxq.github.io/tags/blog/</loc>
+    <lastmod>2019-12-22T20:30:01+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://micro-hxq.github.io/categories/</loc>
-    <lastmod>2019-12-22T19:49:28+08:00</lastmod>
+    <lastmod>2019-12-22T20:30:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://micro-hxq.github.io/tags/hugo/</loc>
+    <lastmod>2019-12-22T20:30:01+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://micro-hxq.github.io/</loc>
-    <lastmod>2019-12-22T19:49:28+08:00</lastmod>
+    <lastmod>2019-12-22T20:30:01+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://micro-hxq.github.io/tags/</loc>
-    <lastmod>2019-12-22T19:49:28+08:00</lastmod>
+    <lastmod>2019-12-22T20:30:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://micro-hxq.github.io/articles/test-my-second-post/</loc>
-    <lastmod>2019-12-22T19:49:28+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://micro-hxq.github.io/articles/test-my-post/</loc>
-    <lastmod>2019-12-22T19:16:07+08:00</lastmod>
+    <loc>https://micro-hxq.github.io/articles/build-personal-blog-using-hugo/</loc>
+    <lastmod>2019-12-22T20:30:01+08:00</lastmod>
   </url>
   
   <url>

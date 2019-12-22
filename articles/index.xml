@@ -6,29 +6,26 @@
     <description>Recent content in Articles on HXQ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Dec 2019 19:49:28 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 22 Dec 2019 20:30:01 +0800</lastBuildDate>
     
 	<atom:link href="https://micro-hxq.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Test My Second Post</title>
-      <link>https://micro-hxq.github.io/articles/test-my-second-post/</link>
-      <pubDate>Sun, 22 Dec 2019 19:49:28 +0800</pubDate>
+      <title>使用Hugo搭建个人博客</title>
+      <link>https://micro-hxq.github.io/articles/build-personal-blog-using-hugo/</link>
+      <pubDate>Sun, 22 Dec 2019 20:30:01 +0800</pubDate>
       
-      <guid>https://micro-hxq.github.io/articles/test-my-second-post/</guid>
-      <description>Insert lead paragraph here.
-Header2 Header3 </description>
-    </item>
-    
-    <item>
-      <title>Test My Post</title>
-      <link>https://micro-hxq.github.io/articles/test-my-post/</link>
-      <pubDate>Sun, 22 Dec 2019 19:16:07 +0800</pubDate>
-      
-      <guid>https://micro-hxq.github.io/articles/test-my-post/</guid>
-      <description>Insert lead paragraph here.
-Header2 Header3 </description>
+      <guid>https://micro-hxq.github.io/articles/build-personal-blog-using-hugo/</guid>
+      <description>本篇记录使用Hugo搭建个人博客的流程，由于自己的博客用于记录技术文章，并不需要多么酷炫的功能，只需要展示静态文件就足够了，对比几款博客框架，最终选择Hugo来构建我的博客，下面介绍下使用Hugo搭建博客的整体步骤， 随后介绍如何将博客托管到GitHub上，并配置自己的个人域名。
+1. 搭建前准备 版本的选择默认使用当前下载的版本
+Windows: 使用choco包管理工具下载时切换到管理员账号权限
+  hugo v0.61.0
+Windows: choco install -y hugo hugo-extends
+  git v2.19
+Windows: choco install -y git
+  2. 博客搭建 3. GitHub托管 4. 配置个人域名 配置个人域名前需要申请个人域名，申请个人域名可自行网上搜索，我是在Namecheap上面购买的个人域名。域名准备好后，需要进行一些配置，由于我们使用Cloudflare配置https，故域名配置的将DNS服务器配置成Cloudflare提供的两个DNS服务器，随后在Cloudflare中添加一条A记录，如下图所示，Name填写申请的域名，Content填写&amp;lt;username&amp;gt;.github.io的IP地址，该地址可以通过Ping &amp;lt;username&amp;gt;.github.io得到。
+域名配置完成后，在本地博客目录下添加CNAME文件，其中填写自己的域名。注意，CNAME在每次发布博文后都是需要放置在public目录下，最终在GitHub代码库的根目录下。</description>
     </item>
     
   </channel>

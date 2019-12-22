@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HXQ</title>
-    <link>https://micro-hxq.github.io/</link>
-    <description>Recent content on HXQ</description>
+    <title>blog on HXQ</title>
+    <link>https://micro-hxq.github.io/tags/blog/</link>
+    <description>Recent content in blog on HXQ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 22 Dec 2019 20:30:01 +0800</lastBuildDate>
     
-	<atom:link href="https://micro-hxq.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://micro-hxq.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -26,15 +26,6 @@ Windows: choco install -y hugo hugo-extends
 Windows: choco install -y git
   2. 博客搭建 3. GitHub托管 4. 配置个人域名 配置个人域名前需要申请个人域名，申请个人域名可自行网上搜索，我是在Namecheap上面购买的个人域名。域名准备好后，需要进行一些配置，由于我们使用Cloudflare配置https，故域名配置的将DNS服务器配置成Cloudflare提供的两个DNS服务器，随后在Cloudflare中添加一条A记录，如下图所示，Name填写申请的域名，Content填写&amp;lt;username&amp;gt;.github.io的IP地址，该地址可以通过Ping &amp;lt;username&amp;gt;.github.io得到。
 域名配置完成后，在本地博客目录下添加CNAME文件，其中填写自己的域名。注意，CNAME在每次发布博文后都是需要放置在public目录下，最终在GitHub代码库的根目录下。</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>https://micro-hxq.github.io/about/</link>
-      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://micro-hxq.github.io/about/</guid>
-      <description>This is my technical blog.</description>
     </item>
     
   </channel>
