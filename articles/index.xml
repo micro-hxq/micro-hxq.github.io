@@ -6,10 +6,33 @@
     <description>Recent content in Articles on HXQ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Dec 2019 20:30:01 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2020 19:49:31 +0800</lastBuildDate>
     
 	<atom:link href="https://micro-hxq.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>vim常用技巧</title>
+      <link>https://micro-hxq.github.io/articles/mastering-vim/</link>
+      <pubDate>Wed, 25 Mar 2020 19:49:31 +0800</pubDate>
+      
+      <guid>https://micro-hxq.github.io/articles/mastering-vim/</guid>
+      <description>1. vim基本技巧 1.1 基本操作   查看当前vim使用的配置文件
+:echo $MYVIMRC   配置vim主题 在vim的配置文件中(.vimrc)添加如下命令，
+colorscheme &amp;lt;theme-name&amp;gt; 也可使用colorscheme命令动态切换主题，在命令后面追加空格后，可使用Tab键进行主题选择。
+  重新加载文件
+:e[dit] &amp;lt;filename&amp;gt;   文件另存为
+:w[rite] &amp;lt;filename&amp;gt;   常用移动命令的大写版本 移动命令的小写版本和大写版本在vim中有不同的处理方式，
+ 小写：作为常规的单词进行处理 大写：作为广义的单词进行处理，即只考虑空格分隔符作为单词分隔符。  比如&amp;quot;vim.foo-bar test&amp;quot;在小写中视为6个单词，在大写版本中视为2个单词。
+  文本段落间的移动 {向后移动一个段落，}向前移动段落。
+  文本修改命令 cc命令在删除本行内容时，进入插入状态，并且保留行首的缩进。
+  保存撤销记录
+set undofile 上述命令表示开启持久化撤销记录，通常最好也设置一下记录的保存文件路径，即set undodir=&amp;quot;&amp;lt;dir-path&amp;gt;&amp;quot;
+  文本搜索
+ 正向搜索：/&amp;lt;keyword&amp;gt; 反向搜索：?&amp;lt;keyword&amp;gt;    帮助命令
+:h[elp] &amp;lt;cmd&amp;gt; 使用help命令查看命令使用方式，通常可使用CTRL+D查看补全信息
+  Header3 </description>
+    </item>
     
     <item>
       <title>使用Hugo搭建个人博客</title>
