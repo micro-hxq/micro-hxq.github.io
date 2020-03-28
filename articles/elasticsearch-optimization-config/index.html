@@ -328,7 +328,7 @@ Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.c
 </code></pre></div></li>
 <li>
 <p>索引数据迁移</p>
-<p>在迁移索引数据时，无论使用时第三方工具还是reindex操作，可以先将目标索引的<code>index.number_of_replicas</code>属性设置为0，待主分片迁移完毕后，在动态修改分片副本数，可降低在迁移过程中的索引写入速度，创建副本分片是无需重新索引，使用分片recover机制直接从主分片中复制数据。</p>
+<p>在迁移索引数据时，无论使用时第三方工具还是reindex操作，可以先将目标索引的<code>index.number_of_replicas</code>属性设置为0，待主分片迁移完毕后，在动态修改分片副本数，可降低在迁移过程中的索引写入速度，创建副本分片是无需重新索引，使用分片recovery机制直接从主分片中复制数据。</p>
 </li>
 </ol>
 <h3 id="header3">Header3</h3>
