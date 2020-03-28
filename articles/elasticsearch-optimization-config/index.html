@@ -27,7 +27,7 @@ index.translog.durability: request
 默认的translog持久化策略时每个请求都执行flush操作，这会极大影响es的写入性能，对于数据可靠性没有严格要求的场景可以修改translog的刷盘策略，调整为周期性和满足一定大小是flush。
 index.translog.durability: async
 index.translog.sync_interval: 10s
-默认间隔为5s
+默认间隔为5s。
 index.translog.flush_threshold_size: 1024mb
 默认为512mb，当translog超过此大小是，将执行refresh操作。
   调整索引刷新间隔时间
@@ -57,7 +57,7 @@ index.translog.durability: request
 默认的translog持久化策略时每个请求都执行flush操作，这会极大影响es的写入性能，对于数据可靠性没有严格要求的场景可以修改translog的刷盘策略，调整为周期性和满足一定大小是flush。
 index.translog.durability: async
 index.translog.sync_interval: 10s
-默认间隔为5s
+默认间隔为5s。
 index.translog.flush_threshold_size: 1024mb
 默认为512mb，当translog超过此大小是，将执行refresh操作。
   调整索引刷新间隔时间
@@ -272,7 +272,7 @@ Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.c
 <p>默认的translog持久化策略时每个请求都执行flush操作，这会极大影响es的写入性能，对于数据可靠性没有严格要求的场景可以修改translog的刷盘策略，调整为周期性和满足一定大小是flush。</p>
 <p><code>index.translog.durability: async</code></p>
 <p><code>index.translog.sync_interval: 10s</code></p>
-<p>默认间隔为<code>5s</code></p>
+<p>默认间隔为<code>5s</code>。</p>
 <p><code>index.translog.flush_threshold_size: 1024mb</code></p>
 <p>默认为<code>512mb</code>，当translog超过此大小是，将执行refresh操作。</p>
 </li>
