@@ -6,10 +6,46 @@
     <description>Recent content on HXQ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Mar 2020 19:49:31 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2020 12:09:19 +0800</lastBuildDate>
     
 	<atom:link href="https://micro-hxq.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ElasticSearch性能优化配置</title>
+      <link>https://micro-hxq.github.io/articles/elasticsearch-optimization-config/</link>
+      <pubDate>Sat, 28 Mar 2020 12:09:19 +0800</pubDate>
+      
+      <guid>https://micro-hxq.github.io/articles/elasticsearch-optimization-config/</guid>
+      <description>写入性能优化   调整translog flush间隔
+index.translog.durability: request
+默认的translog持久化策略时每个请求都执行flush操作，这会极大影响es的写入性能，对于数据可靠性没有严格要求的场景可以修改translog的刷盘策略，调整为周期性和满足一定大小是flush。
+index.translog.durability: async
+index.translog.sync_interval: 10s
+默认间隔为5s
+index.translog.flush_threshold_size: 1024mb
+默认为512mb，当translog超过此大小是，将执行refresh操作。
+  调整索引刷新间隔时间
+index.refresh_interval: 10s
+默认为1s，此配置影响es的搜索结果，意味着默认情况下数据写入1秒后可以被搜索到。索引每次执行refresh操作都会产生一个车新的Lucene Segment，频段的索引refresh对导致过多的Segment merge行为。
+  调整Lucene Segment合并
+index.merge.scheduler.max_thread_count: 1
+执行Segment合并的线程数，默认值的计算公式如下：
+Math.max(1, Math.min(4, processor_count / 2))
+当仅使用一块硬盘且非SSD时，应调整为1，多个线程并发写入单个硬盘会降低写入速度。
+index.merge.policy.max_merged_segment: 1GB
+默认为5GB，降低单个Segment的容量，避免Segment文件过大。
+  调整分片缓存
+indices.memory.index_buffer_size: 10%
+默认大小时heap大小的10%。每个shard获得的buffer小大是该配置值除以该节点的shard数。
+indices.memory.min_index_buffer_size: 48MB
+默认为48MB。
+indices.memory.max_index_buffer_size
+默认没有上限。
+  禁用_all字段
+_all字段在ES6.x版本之前都是默认启用的，该字段占用空间和建立索引开销较大。通过如下方式关闭_all字段：
+{ &amp;#34;mappings&amp;#34;: { &amp;#34;&amp;lt;type&amp;gt;&amp;#34;: { &amp;#34;_all&amp;#34;: { &amp;#34;enabled&amp;#34;: false }, &amp;#34;properties&amp;#34;: {...} } } } 禁用该字段可明显降低对CPU和IO的压力。</description>
+    </item>
     
     <item>
       <title>vim常用技巧</title>
