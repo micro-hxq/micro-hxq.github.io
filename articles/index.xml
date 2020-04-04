@@ -6,10 +6,20 @@
     <description>Recent content in Articles on HXQ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Mar 2020 12:09:19 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2020 11:58:26 +0800</lastBuildDate>
     
 	<atom:link href="https://micro-hxq.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Linux常用命令行工具</title>
+      <link>https://micro-hxq.github.io/articles/linux-common-tools/</link>
+      <pubDate>Sat, 04 Apr 2020 11:58:26 +0800</pubDate>
+      
+      <guid>https://micro-hxq.github.io/articles/linux-common-tools/</guid>
+      <description>CPU top vmstat mpstat strace perf 内存 free vmstat top sar 网络 netstat ss sar ifconfig sysdig *[@_@]: IO相关
+IO iostat blktrace iotop pidstat </description>
+    </item>
     
     <item>
       <title>ElasticSearch性能优化配置</title>

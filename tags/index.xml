@@ -6,10 +6,28 @@
     <description>Recent content in Tags on HXQ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Mar 2020 12:09:19 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2020 11:58:26 +0800</lastBuildDate>
     
 	<atom:link href="https://micro-hxq.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>tool</title>
+      <link>https://micro-hxq.github.io/tags/tool/</link>
+      <pubDate>Sat, 04 Apr 2020 11:58:26 +0800</pubDate>
+      
+      <guid>https://micro-hxq.github.io/tags/tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>“linux&#34;</title>
+      <link>https://micro-hxq.github.io/tags/linux/</link>
+      <pubDate>Sat, 04 Apr 2020 11:58:26 +0800</pubDate>
+      
+      <guid>https://micro-hxq.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ElasticSearch</title>
