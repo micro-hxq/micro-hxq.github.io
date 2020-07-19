@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>https://micro-hxq.github.io/tags/linux/</loc>
+    <lastmod>2020-06-28T22:55:26+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://micro-hxq.github.io/articles/ls-detail/</loc>
     <lastmod>2020-06-28T22:55:26+08:00</lastmod>
   </url>
@@ -33,11 +38,6 @@
   </url>
   
   <url>
-    <loc>https://micro-hxq.github.io/tags/linux/</loc>
-    <lastmod>2020-06-28T22:55:26+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://micro-hxq.github.io/categories/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2020-06-28T22:55:26+08:00</lastmod>
   </url>
@@ -48,12 +48,12 @@
   </url>
   
   <url>
-    <loc>https://micro-hxq.github.io/categories/elasticsearch/</loc>
+    <loc>https://micro-hxq.github.io/tags/elasticsearch/</loc>
     <lastmod>2020-03-28T12:09:19+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://micro-hxq.github.io/tags/elasticsearch/</loc>
+    <loc>https://micro-hxq.github.io/categories/elasticsearch/</loc>
     <lastmod>2020-03-28T12:09:19+08:00</lastmod>
   </url>
   
