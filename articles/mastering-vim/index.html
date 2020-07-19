@@ -27,7 +27,7 @@
 在vim的配置文件中(.vimrc)添加如下命令，
 colorscheme &lt;theme-name&gt; 也可使用colorscheme命令动态切换主题，在命令后面追加空格后，可使用Tab键进行主题选择。
   重新加载文件
-:e[dit] &lt;filename&gt;   文件另存为
+:e[dit] &lt;filename&gt;   文件另存为 G
 :w[rite] &lt;filename&gt;   常用移动命令的大写版本
 移动命令的小写版本和大写版本在vim中有不同的处理方式，
  小写：作为常规的单词进行处理 大写：作为广义的单词进行处理，即只考虑空格分隔符作为单词分隔符。  比如&quot;vim.foo-bar test&quot;在小写中视为6个单词，在大写版本中视为2个单词。
@@ -40,7 +40,7 @@ set undofile 上述命令表示开启持久化撤销记录，通常最好也设�
   文本搜索
  正向搜索：/&lt;keyword&gt; 反向搜索：?&lt;keyword&gt;    帮助命令
 :h[elp] &lt;cmd&gt; 使用help命令查看命令使用方式，通常可使用CTRL&#43;D查看补全信息
-  Header3 "/>
+  1.2 工作区   查看缓冲区列表"/>
 
 <meta property="og:title" content="vim常用技巧" />
 <meta property="og:description" content="1. vim基本技巧 1.1 基本操作   查看当前vim使用的配置文件
@@ -48,7 +48,7 @@ set undofile 上述命令表示开启持久化撤销记录，通常最好也设�
 在vim的配置文件中(.vimrc)添加如下命令，
 colorscheme &lt;theme-name&gt; 也可使用colorscheme命令动态切换主题，在命令后面追加空格后，可使用Tab键进行主题选择。
   重新加载文件
-:e[dit] &lt;filename&gt;   文件另存为
+:e[dit] &lt;filename&gt;   文件另存为 G
 :w[rite] &lt;filename&gt;   常用移动命令的大写版本
 移动命令的小写版本和大写版本在vim中有不同的处理方式，
  小写：作为常规的单词进行处理 大写：作为广义的单词进行处理，即只考虑空格分隔符作为单词分隔符。  比如&quot;vim.foo-bar test&quot;在小写中视为6个单词，在大写版本中视为2个单词。
@@ -61,7 +61,7 @@ set undofile 上述命令表示开启持久化撤销记录，通常最好也设�
   文本搜索
  正向搜索：/&lt;keyword&gt; 反向搜索：?&lt;keyword&gt;    帮助命令
 :h[elp] &lt;cmd&gt; 使用help命令查看命令使用方式，通常可使用CTRL&#43;D查看补全信息
-  Header3 " />
+  1.2 工作区   查看缓冲区列表" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://micro-hxq.github.io/articles/mastering-vim/" />
 <meta property="article:published_time" content="2020-03-25T19:49:31+08:00" />
@@ -267,7 +267,8 @@ Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.c
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">:e<span style="color:#f92672">[</span>dit<span style="color:#f92672">]</span> &lt;filename&gt;
 </code></pre></div></li>
 <li>
-<p>文件另存为</p>
+<p>文件另存为
+G</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">:w<span style="color:#f92672">[</span>rite<span style="color:#f92672">]</span> &lt;filename&gt;
 </code></pre></div></li>
 <li>
@@ -305,7 +306,58 @@ Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.c
 </code></pre></div><p>使用<code>help</code>命令查看命令使用方式，通常可使用<code>CTRL+D</code>查看补全信息</p>
 </li>
 </ol>
-<h3 id="header3">Header3</h3>
+<h3 id="12-">1.2 工作区</h3>
+<ol>
+<li>
+<p>查看缓冲区列表</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">:ls 
+</code></pre></div><p>等同的命令有<code>:buffers</code>、<code>:files</code></p>
+</li>
+<li>
+<p>缓冲区间切换</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">:b &lt;number&gt;
+</code></pre></div><p>中间的空格可省略，也可以使用文件名中的某部分进行选择，当然，也可以是所以tab补全文件名；也可以使用<code>:bn[ext]</code>和<code>:bp[revious]</code>进行顺序选择</p>
+</li>
+<li>
+<p>缓冲区删除</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">:bd
+</code></pre></div><p>在删除之前需要先保存</p>
+</li>
+<li>
+<p>垂直分屏</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">:sp<span style="color:#f92672">[</span>lit<span style="color:#f92672">]</span> &lt;filename&gt;
+</code></pre></div></li>
+<li>
+<p>水平分屏</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">:vs<span style="color:#f92672">[</span>plit<span style="color:#f92672">]</span> &lt;filename&gt;
+</code></pre></div></li>
+<li>
+<p>窗口间移动</p>
+<p>窗口相关的快捷键都需要先按<code>Ctrl+w</code>组合键，然后在使用<code>h j k l</code>在窗口间移动</p>
+<p>可以自定义组合键来绑定切换窗口的快捷键</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">noremap &lt;c-h&gt; &lt;c-w&gt;&lt;c-h&gt;
+noremap &lt;c-j&gt; &lt;c-w&gt;&lt;c-j&gt;
+noremap &lt;c-k&gt; &lt;c-w&gt;&lt;c-k&gt;
+noremap &lt;c-l&gt; &lt;c-w&gt;&lt;c-l&gt;
+</code></pre></div><p>使用<code>Ctrl+w,q</code>关闭当前窗口，但不会删除缓冲区，可以使用<code>:bd</code>关闭窗口的同时删除缓存区</p>
+</li>
+<li>
+<p>改变窗口大小</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">:res +N/-N
+:vert res +N/-N
+</code></pre></div><p>使用<code>Ctrl+w,=</code>恢复默认比例；也可以使用<code>Ctrl+w,[number]+/-/&gt;/&lt;</code>改变窗口尺寸</p>
+</li>
+<li>
+<p>标签页</p>
+<p>使用<code>:tabnew</code>新建标签页，当然在新建的同时也可以打开文件，添加文件名参数即可。</p>
+<p>使用<code>:tabclose</code>关闭当前标签页</p>
+<p>使用<code>:tabmove N</code>用来将当前标签页移动到第N个标签页之后</p>
+<p>切换到下一个标签页：<code>:tabnext/gt</code></p>
+<p>切换到上一个标签页：<code>:tabprevious/gT</code></p>
+</li>
+</ol>
+<h2 id="heading">常用插件</h2>
+<h3 id="unimpaired">unimpaired</h3>
 
   </div>
   

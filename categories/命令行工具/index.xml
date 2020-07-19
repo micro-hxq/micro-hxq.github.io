@@ -6,10 +6,20 @@
     <description>Recent content in 命令行工具 on HXQ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Apr 2020 11:58:26 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2020 22:55:26 +0800</lastBuildDate>
     
 	<atom:link href="https://micro-hxq.github.io/categories/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ls工具详解</title>
+      <link>https://micro-hxq.github.io/articles/ls-detail/</link>
+      <pubDate>Sun, 28 Jun 2020 22:55:26 +0800</pubDate>
+      
+      <guid>https://micro-hxq.github.io/articles/ls-detail/</guid>
+      <description>.
+选择 Header3 </description>
+    </item>
     
     <item>
       <title>Linux常用命令行工具</title>

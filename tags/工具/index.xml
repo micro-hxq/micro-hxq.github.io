@@ -22,7 +22,7 @@
 在vim的配置文件中(.vimrc)添加如下命令，
 colorscheme &amp;lt;theme-name&amp;gt; 也可使用colorscheme命令动态切换主题，在命令后面追加空格后，可使用Tab键进行主题选择。
   重新加载文件
-:e[dit] &amp;lt;filename&amp;gt;   文件另存为
+:e[dit] &amp;lt;filename&amp;gt;   文件另存为 G
 :w[rite] &amp;lt;filename&amp;gt;   常用移动命令的大写版本
 移动命令的小写版本和大写版本在vim中有不同的处理方式，
  小写：作为常规的单词进行处理 大写：作为广义的单词进行处理，即只考虑空格分隔符作为单词分隔符。  比如&amp;quot;vim.foo-bar test&amp;quot;在小写中视为6个单词，在大写版本中视为2个单词。
@@ -35,7 +35,7 @@ set undofile 上述命令表示开启持久化撤销记录，通常最好也设�
   文本搜索
  正向搜索：/&amp;lt;keyword&amp;gt; 反向搜索：?&amp;lt;keyword&amp;gt;    帮助命令
 :h[elp] &amp;lt;cmd&amp;gt; 使用help命令查看命令使用方式，通常可使用CTRL+D查看补全信息
-  Header3 </description>
+  1.2 工作区   查看缓冲区列表</description>
     </item>
     
   </channel>
